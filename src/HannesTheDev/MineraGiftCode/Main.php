@@ -3,7 +3,6 @@
 namespace HannesTheDev\MineraGiftCode;
 
 use jojoe77777\FormAPI\CustomForm;
-use onebone\economyapi\EconomyAPI;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\Player;
@@ -32,7 +31,7 @@ class Main extends PluginBase implements Listener
             $this->getLogger()->info("You must installing EconomyAPI!");
             $this->getServer()->shutdown();
         } else {
-            $this->eco = EconomyAPI::getInstance();
+            $this->eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
         }
         $this->formCount = rand(0, 0xFFFFFFFF);
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
