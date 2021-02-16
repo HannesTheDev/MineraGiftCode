@@ -1,5 +1,5 @@
-# GiftCode [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs)
-GiftCode is an useful plugin wich you can make get gifts with a code
+# MineraGiftCode [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs)
+MineraGiftCode is an useful plugin wich you can make get gifts with a code
 
 ## Commands + Permission
 Command | Description | Default | Alias | Permissions
