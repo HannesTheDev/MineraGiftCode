@@ -25,7 +25,6 @@ class Main extends PluginBase implements Listener
 
     public function onEnable()
     {
-        $this->getLogger()->info("Plugin activated!");
         $plugin = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
         if (is_null($plugin)) {
             $this->getLogger()->info("You must installing EconomyAPI!");
