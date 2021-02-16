@@ -1,0 +1,17 @@
+name: MineraGiftCode
+main: HannesTheDev\MineraGiftCode\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
+
+commands:
+ gencode:
+     description: "Generate a giftcode"
+     permission: "mineragiftcode.gencode.cmd"
+ redeem:
+     description: "Redeem a giftcode"
+
+permissions:
+ mineragiftcode.gencode.cmd:
+     description: "/gencode permission"
+     default: op
